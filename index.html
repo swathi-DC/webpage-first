@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Hello, I'm <span class="accent">Your Name</span></h1>
+      <p>Welcome to my first web page, deployed with GitHub and Netlify.</p>
+      <button id="greet-btn">Say hello</button>
+      <p id="greet-msg" aria-live="polite"></p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Write a few sentences about yourself here: what you study or work on, and what you are learning.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="cards">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

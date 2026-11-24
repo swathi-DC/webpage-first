@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: #1f2933;
+  background: #f7f9fb;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e8ee;
+}
+
+nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #1f2933;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+section {
+  padding: 3rem 0;
+  border-bottom: 1px solid #e3e8ee;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.accent {
+  color: #2563eb;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.6rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background: #2563eb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#greet-msg {
+  margin-top: 1rem;
+  min-height: 1.6rem;
+  font-weight: 500;
+}
+
+.cards {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.cards li {
+  padding: 1rem;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #e3e8ee;
+  border-radius: 8px;
+}
+
+a {
+  color: #2563eb;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  nav {
+    justify-content: center;
+  }
+}
